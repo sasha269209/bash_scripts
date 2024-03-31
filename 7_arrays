@@ -1,0 +1,51 @@
+#!/bin/bash
+
+
+array=(12 45 23 55 2)
+array2=(44 544444 five)
+
+echo "  "
+echo  "all array"
+echo ${array[@]}
+echo ${array2[@]}
+
+echo "  "
+echo "Indecs of array"
+echo ${!array[@]}
+echo ${!array2[@]}
+
+echo "  "
+echo "Element of array"
+echo ${array[2]}
+echo ${array2[1]}
+
+echo "   "
+echo "Quontity in array"
+echo ${#array[@]}
+echo ${#array2[@]}
+
+echo " "
+echo "Lend of depend element in array"
+echo ${#array[2]}
+echo ${#array2[1]}
+
+echo "   "
+echo "Change of element in array"
+array[0]=one
+array2[1]=33
+echo "And print all elements"
+echo ${array[@]}
+echo ${array2[@]}
+
+echo "  "
+echo "Use FOR"
+for i in ${!array[@]}; do
+	echo "${array[$i]}"
+done
+
+
+
+
+
+
+

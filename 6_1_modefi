@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo -n "What is uour mane of brand?  "
+read marka
+
+# with operator IF
+
+if [[ $marka == "samsung" ]] || [[ $marka == "nokia" ]] || [[ $marka == "apple" ]] ; then
+
+	if [[ $marka == "samsung" ]]; then
+		  echo "For $marka is discount 10%"
+	elif [[ $marka == "nokia" ]]; then
+		  echo "For $marka is discount 20%"
+	else
+		  echo "For $marka is discount 0%"
+	fi
+else 
+	echo "$marka - is not model of phone"
+
+fi
+
+

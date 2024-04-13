@@ -1,0 +1,9 @@
+#!/bin/bash
+clear
+echo " "
+echo "Heloo! What is your name?"
+echo  " "
+read username
+echo " "
+echo "Welkomr to uour serwer mister $username"
+echo "  "

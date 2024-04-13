@@ -1,0 +1,15 @@
+#!/bin/bash
+clear
+echo "  "
+usr="admin"
+level=100220
+echo "$usr has level $level"
+echo " "
+num1=5
+num2=7
+num3=$num1+$num2
+echo "result is $num3"
+echo " "
+let num3=$num1+$num2
+echo "result is $num3"
+echo " "

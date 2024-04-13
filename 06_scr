@@ -1,0 +1,20 @@
+#!/bin/bash
+clear
+echo " "
+echo "Please enter some number"
+echo " "
+read number
+echo " "
+if (($number > 0 )); 
+then 
+	echo "The number $number is more then 0" 
+elif (($number < 0 )); 
+then 
+	echo "The number $number is less then 0" 
+else
+	echo "The number is 0"
+fi
+echo "  "
+
+
+

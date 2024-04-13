@@ -1,0 +1,7 @@
+#!/bin/bash
+clear
+echo "  "
+echo "home directory is - $HOME "
+echo " "
+echo "Today i earn \$100"
+echo " "

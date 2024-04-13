@@ -1,0 +1,12 @@
+#!/bin/bash
+clear
+echo " "
+user="lessons"
+if grep --quiet $user /etc/passwd
+then
+	echo "On this host is user $user"
+else
+	echo "On thos host not present user $user"
+fi
+echo " "
+

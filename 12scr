@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+echo "  "
+echo "Pleae write file name in this directory"
+read filename
+echo " "
+
+if [ -e $filename ] ;
+then
+	echo "You are right - file $filename present in this directory"
+else
+	echo "In this directory is not epsent file $filename"
+fi
+
+echo "  "
+
+
+
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+echo "  "
+mypass=`pwd`
+echo "Way to current directory is -  $mypass"
+echo "  "
+
+
+
+

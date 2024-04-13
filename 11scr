@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+echo "  "
+mypass=`pwd`
+echo "I am here  -  $mypass"
+echo " "
+
+if [ $mypass = "/home/lessons/git/bash_scripts" ] ;
+then
+	echo "You are in good ditectory"
+else
+	echo "You are in directory $mypass - Please change your directory"
+fi
+
+echo "  "
+
+
+
+

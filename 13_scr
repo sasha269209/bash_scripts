@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+echo "  "
+echo "Pleae write directory name"
+read direcrory
+echo " "
+
+if [ -d $direcrory ] ;
+then
+	echo "You are right - directory $filename presemt"
+else
+	echo "This directory $directory is not epsent"
+fi
+
+echo "  "
+
+myhomedir=/root
+echo "I like directory -  $myhomedir"
+echo " "

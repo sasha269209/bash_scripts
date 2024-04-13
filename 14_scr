@@ -1,0 +1,11 @@
+#!/bin/bash
+clear
+echo "  "
+echo "Hello wait 3  seconds"
+echo " "
+sleep 3  #wait 3 second
+echo "Hello wait 5 seconds"
+sleep 5  #wait 5 second
+echo " "
+echo "OK Finish - you are the best"
+echo "  "

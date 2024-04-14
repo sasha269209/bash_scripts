@@ -1,0 +1,41 @@
+#!/bin/bash
+clear
+
+# i++
+echo " "
+for ((i=1; i<5; i++))
+do
+	echo Number is - $i
+done
+echo "  "
+
+# ++i
+echo " "
+for ((i=1; i<5; ++i))
+do
+	echo Number is - $i
+done
+echo "  "
+
+
+# k--
+echo " "
+for ((k=5; k>0; k--))
+do
+	echo Number is - $k
+done
+echo "  "
+
+#
+echo " "
+for ((t=1; t<=3; t++))
+do
+	echo out number - $t
+	for ((m=1; m<=2; m++))
+	do
+		echo insaid number - $m
+	done
+done
+echo " "
+
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+#video 32 - 38:05 - 42:40 
+clear
+echo " "
+echo "Start" > 22_log.txt
+IFS=:
+for folder in $PATH
+do
+	echo "$folder:" >> 22_log.txt
+	for file in $folder/*.*
+	do
+		if [ -x $file ]
+		then 
+			echo " $file" >> 22_log.txt
+		fi
+	done
+done
+echo " "
+

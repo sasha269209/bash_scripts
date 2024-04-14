@@ -1,0 +1,21 @@
+#!/bin/bash
+clear
+for file in /home/lessons/*
+do
+	echo $file
+done
+echo "  "
+
+#More difficalt
+for file in /home/lessons/*
+do
+	if [ -d "$file" ]
+	then
+		echo $file - this is directory
+	elif [ -f "$file" ]
+	then
+		echo $file - this is file
+	fi
+
+done
+echo "  "

@@ -1,0 +1,46 @@
+Start
+/usr/local/bin:
+/usr/bin:
+ /usr/bin/cpan5.36-x86_64-linux-gnu
+ /usr/bin/gettext.sh
+ /usr/bin/ld.so
+ /usr/bin/lft.db
+ /usr/bin/md5sum.textutils
+ /usr/bin/nc.traditional
+ /usr/bin/pdb3.11
+ /usr/bin/perl5.36.0
+ /usr/bin/perl5.36-x86_64-linux-gnu
+ /usr/bin/pydoc3.11
+ /usr/bin/pygettext3.11
+ /usr/bin/python3.11
+ /usr/bin/rename.ul
+ /usr/bin/sar.sysstat
+ /usr/bin/traceproto.db
+ /usr/bin/traceroute6.db
+ /usr/bin/traceroute.db
+ /usr/bin/vim.basic
+ /usr/bin/vim.tiny
+ /usr/bin/which.debianutils
+/bin:
+ /bin/cpan5.36-x86_64-linux-gnu
+ /bin/gettext.sh
+ /bin/ld.so
+ /bin/lft.db
+ /bin/md5sum.textutils
+ /bin/nc.traditional
+ /bin/pdb3.11
+ /bin/perl5.36.0
+ /bin/perl5.36-x86_64-linux-gnu
+ /bin/pydoc3.11
+ /bin/pygettext3.11
+ /bin/python3.11
+ /bin/rename.ul
+ /bin/sar.sysstat
+ /bin/traceproto.db
+ /bin/traceroute6.db
+ /bin/traceroute.db
+ /bin/vim.basic
+ /bin/vim.tiny
+ /bin/which.debianutils
+/usr/local/games:
+/usr/games:

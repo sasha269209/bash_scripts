@@ -1,0 +1,15 @@
+#!/bin/bash
+#video 32 - 28:35 -33:50 
+clear
+echo " "
+for var in 1 2 3 4 5 6
+do
+	if [ $var -eq 5 ]
+	then
+		break
+	fi
+	echo Cycle work because number less then 5 - is equal to $var
+done
+echo "  "
+
+# break ??? from IF  or from FOR

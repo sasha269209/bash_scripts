@@ -1,0 +1,33 @@
+#!/bin/bash
+clear
+echo "  "
+file="16_scr_list"
+for warrior in $(cat $file) 
+do
+	echo $warrior  - this is a number
+done
+echo "  "
+
+
+# Use ......
+echo "  "
+file="16_scr_list"
+IFS=$'\n'   #Use .......
+for warrior in $(cat $file) 
+do
+	echo $warrior  - this is a number
+done
+echo "  "
+
+
+# Use ......
+echo "  "
+file="16_scr_list_2"
+IFS=$';'   #Use .......
+for warrior in $(cat $file) 
+do
+	echo $warrior  - this is a number
+done
+echo "  "
+
+

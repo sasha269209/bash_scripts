@@ -1,0 +1,8 @@
+#!/bin/bash
+clear
+echo "  "
+for warrior in one two three four fibe "two and one" "three and four" 
+do
+	echo "$warrior  - this is a number"
+done
+echo "  "

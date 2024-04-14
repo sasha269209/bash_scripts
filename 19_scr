@@ -1,0 +1,16 @@
+#!/bin/bash
+#video 32 - 25:25 -  28:35
+clear
+echo " "
+var=7
+#while [ $var = 0 ]
+while [ $var -gt 0 ]
+do
+	echo $var
+	var=$[var -1]
+done
+echo "  "
+
+
+# How to use var--  ??
+#  -gt = ???

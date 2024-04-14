@@ -1,0 +1,14 @@
+#!/bin/bash
+#video 32 - 33:50 -38:05 
+clear
+echo " "
+for ((i=1; i<20; i++))  # i=1 2 .... 18 19
+do
+	if [ $i -gt 5 ] && [ $i -lt 15 ]
+	then continue   # 6 7 .... 13 14 then stop cycle and go to next step
+	fi
+	echo $i
+done
+echo " "
+
+# change i<20  to i=20  ???

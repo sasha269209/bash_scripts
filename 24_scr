@@ -1,0 +1,21 @@
+#!/bin/bash
+#video 33 - 01:20 -08:10 
+clear
+echo " "
+echo $0
+echo $1
+echo $2
+echo $3
+echo $4
+echo "---------------------------------- "
+# 1 start script like this - bash 24_scr 33 55
+# 2 start script like this - bash 24_scr 
+#     without parametr  - wil be error                            
+#
+# 3 start script like this - bash 24_scr a b 
+#     with no number - rezult = 0
+sum=$[ $1 + $2 ]
+echo "Nnmber 1 is - $1"
+echo "Nnmber 2 is - $2"
+echo "$1 + $2 = $sum"
+echo " "

@@ -1,0 +1,7 @@
+#!/bin/bash
+#video 33 - 08:10 - 09:40
+#you can write to statrs  - ./25_sck Sasha 
+clear
+echo " "
+echo "Hello $1  You are the best"
+echo " "

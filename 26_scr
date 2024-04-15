@@ -1,0 +1,20 @@
+#!/bin/bash
+#video 33 - 10:55 - 13:10 
+clear
+echo " "
+if [ -n "$1" ] && [ -n "$2" ] 
+	# operato IF check input date like ./26_scr 33 45 
+then
+sum=$[ $1 + $2 ]
+echo "Nnmber 1 is - $1"
+echo "Nnmber 2 is - $2"
+echo "$1 + $2 = $sum"
+echo " "
+fi
+
+
+
+#video 33 - 14:00 - 16:50
+# Calculate quontiti of paramert fo input $#
+echo "Quontity of input paramert is -  $#"
+echo " "

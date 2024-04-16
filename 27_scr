@@ -1,0 +1,31 @@
+#!/bin/bash
+#video 33 - 16:50 - 27:35 
+clear
+# Take all parameters in one time
+# Can use two differt posibilitee
+# Its $*
+# Tts $@
+# Ypu can see ho different they work
+# (to ctart ./27_sct 1 2 3 4 5 
+echo " "
+echo "Please see what take \$* $*"
+echo "Please see what take \$@ $@"
+echo " "
+echo "Lets check"
+echo " "
+count=1
+for param in "$*"
+do
+	echo "See in \$* $count = $param "
+	count=$(( $count + 1 ))
+
+done
+echo " "
+count=1
+for param in "$@"
+do
+	echo "See in \$@ $count = $param "
+	count=$(( $count + 1 ))
+
+done
+echo " "

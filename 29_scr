@@ -1,0 +1,15 @@
+#!/bin/bash
+#video 33 - 33:25 - 41:10 
+clear
+echo " "
+while [ -n "$1" ]
+do
+	case "$1" in
+		a) echo "We have a " ;;
+		b) echo "We have b " ;;
+		c) echo "We have c " ;;
+		*) echo "This parametr is not in list" ;;
+	esac
+	shift
+done
+echo " "

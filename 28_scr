@@ -1,0 +1,11 @@
+#!/bin/bash
+#video 33 - 27:35 -  33:25
+clear
+count=1
+while [ -n "$1" ]
+do
+	echo "The first paramet # $count = $1 "
+	count=$(( $count + 1 ))
+	shift
+done
+echo " "

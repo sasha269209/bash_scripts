@@ -1,0 +1,11 @@
+#!/bin/bash
+#video 36 -  21:10 - 28:05 
+clear
+echo
+read -s -p "Enter your password"
+echo
+echo "Yor password is chekin - plese wait"
+sleep 4
+echo 
+echo " You password is ..."
+echo

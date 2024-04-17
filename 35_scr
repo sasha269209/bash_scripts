@@ -1,0 +1,14 @@
+#!/bin/bash
+#video 36 -  28:05 - 33:45 
+clear
+echo
+count=1
+cat 35_scr_text | while read line
+do
+	echo "Line number - $count $line "
+	count=$(( $count + 1 ))
+	sleep 1
+done
+echo
+echo "Cycle finish"
+echo

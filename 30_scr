@@ -1,23 +1,9 @@
 #!/bin/bash
-#video 34 - xx:xx - XX:XX 
+#video 36 - 01:40 - 06:35 
 clear
-echo " "
-
-
-
-
-
-
-
-
-while [ -n "$1" ]
-do
-	case "$1" in
-		a) echo "We have a " ;;
-		b) echo "We have b " ;;
-		c) echo "We have c " ;;
-		*) echo "This parametr is not in list" ;;
-	esac
-	shift
-done
-echo " "
+echo
+echo -n "Please write your name  "  
+read username
+echo
+echo "Helow mister $username I am glad to see you"
+echo

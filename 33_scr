@@ -1,0 +1,13 @@
+#!/bin/bash
+#video 36 - 14:45 -  21:10 
+clear
+echo
+if read -t 5 -p "Please enter code to open box (your time limit is 5 cek) : "
+then
+	echo "Your code - $REPLY will be  check"
+else
+	echo
+	echo
+	echo "Your time limit out. Try next time. "
+fi
+echo

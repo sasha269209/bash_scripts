@@ -1,0 +1,8 @@
+#!/bin/bash
+#video 36 - 11:25 - 14:45 
+clear
+echo
+read -p "What would you like to eat?  " 
+echo
+echo " We will cook $REPLY for you"
+echo

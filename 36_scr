@@ -1,0 +1,31 @@
+#!/bin/bash
+#video 38 -  13:00 - 17:55 
+clear
+echo
+echo "Print when we have ERROR">&2
+echo
+echo "Print if every thing OK"
+echo
+# How we use this script
+# 1 start   ./36_scr
+# 	As result we have 2 line ptint
+#
+# 2 start   ./36_scr 2>36__error.log
+# 	as result we have
+# 		1 line in file 36_error.log
+# 		end
+# 		1 line on the screen
+#
+#
+#   ?????
+#
+# 3 start   ./36_scr 1>36_out.txt
+# 	as result we have
+# 		1 line on the screen
+#
+# 		1 line in file 36_out.txt    ??? Dont work " cat 36_ott.txt"
+# 		
+# 3 start   ./36_scr 1>36_OK 2>36_ER
+# 	as result we have
+#		No screen result
+#		Add two files 36_OK and 36_ER   ??? Can not read this files

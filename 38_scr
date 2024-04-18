@@ -1,0 +1,11 @@
+#!/bin/bash
+#video 38 -  21:50 - 29:10
+clear
+echo
+exec 2>38_error.log
+echo "line one - OK"
+echo "Line two - OK"
+exec 1>38_ok.txt
+echo "Line three - OK"
+echo "Line four - with error" >&2
+echo

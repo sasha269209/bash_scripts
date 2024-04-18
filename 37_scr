@@ -1,0 +1,10 @@
+#!/bin/bash
+#video 38 -  17:55  - 21:50
+exec 1> 37_out.txt
+echo "Line 1"
+echo "Line 2"
+echo "line 3"
+# How we use this script
+# 1 start   ./37_scr
+# 	As result we don't have anithing to ptint
+# 	But add file "37_out.txt" with result

@@ -1,0 +1,22 @@
+#!/bin/bash
+#video 40 -  xx:xx - xx:xx
+clear
+echo
+
+
+
+
+
+
+
+
+
+
+
+
+
+exec 3> 43_out_3
+exec 6> 43_out_6
+exec 7< 43_in_7
+lsof -a -p $$ -d 0,1,2,3,6,7
+echo

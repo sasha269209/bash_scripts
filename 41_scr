@@ -1,0 +1,20 @@
+#!/bin/bash
+#video 39 -  08:10 - 15:20
+clear
+echo
+exec 6<&0
+exec 0< 41_source
+count=1
+while read line
+do
+	echo "Line #$count : $line"
+	count=$(( count + 1 ))
+done
+echo "________"
+exec 0<&6
+read -p "Is procedudure finish? (y/n)" answer
+case $answer in
+	y) echo "Thank you> Have a nice day";;
+		n) echo "We will think about that";;
+esac
+echo

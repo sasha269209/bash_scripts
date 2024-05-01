@@ -1,0 +1,11 @@
+#!/bin/bash
+#video 39 -  15:20  - 20:40
+clear
+echo
+exec 3> 42_out
+echo "Line for DISKRIPTOR #3" >&3
+exec  3>&-  #Stop DISKRIPTOR #3
+echo
+exec 2> 42_error
+echo "Line is not for DISCRIPTOR #3 - (DISCRIPOR #3 IS EPCEN)" >&3
+echo

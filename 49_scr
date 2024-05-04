@@ -1,0 +1,5 @@
+#!/bin/bash
+#video 40 -  25:30 - 28:35
+sleep 100
+# Plese start this script in the background
+# ./49_scr &

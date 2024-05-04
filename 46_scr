@@ -1,0 +1,13 @@
+#!/bin/bash
+#video 40 -  11:35 - 14:35
+
+trap "echo  '  Script stop work - goodbye user'  " EXIT
+echo "Test reaction to end of work"
+
+count=1
+while [ $count -le 3 ]
+do
+	echo "Now coun ecual = $count"
+	sleep 2
+	count=$(( $count + 1 ))
+done

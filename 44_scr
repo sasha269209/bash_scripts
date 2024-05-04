@@ -1,22 +1,10 @@
 #!/bin/bash
-#video 40 -  xx:xx - xx:xx
-clear
-echo
+#       video 15 -  practic
 
+cat /dev/nuul > 44_out
 
-
-
-
-
-
-
-
-
-
-
-
-exec 3> 43_out_3
-exec 6> 43_out_6
-exec 7< 43_in_7
-lsof -a -p $$ -d 0,1,2,3,6,7
-echo
+while true;
+do
+	echo -n "$@ " >>44_out
+	sleep 2
+done

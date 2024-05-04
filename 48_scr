@@ -1,0 +1,25 @@
+#!/bin/bash
+#video 40 -  21:40 - 25:30
+
+trap "echo  '  We are fiks Ctrl+c'  " SIGINT
+echo "Test reaction to Ctrl+c"
+
+count=1
+while [ $count -le 10 ]
+do
+	echo "Now coun ecual = $count"
+	sleep 2
+	count=$(( $count + 1 ))
+done
+
+trap -- SIGINT
+echo "TRAP swich off - Ctrl+c  work"
+
+count=1
+while [ $count -le 10 ]
+do
+	echo "Now coun 2 ecual = $count"
+	sleep 2
+	count=$(( $count + 1 ))
+done
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+#video 41 -  01:20 - 06:30
+sleep 100
+echo "End of script 50_sck (This masage is in file 'nohup.out')"
+# Plese start this script in the background
+# nohup ./50_scr &
+#
+# !!! work as user root - OK
+# !!! work as no root ???  (sudo do not help)
+#

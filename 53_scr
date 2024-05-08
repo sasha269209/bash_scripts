@@ -1,0 +1,23 @@
+#!/bin/bash
+# script 53
+#video 43 -  01:30 - 08:55
+
+function myfunc {
+	echo "Print text 1"
+	echo "Print test 2"
+}
+
+echo 
+echo "Use single functoin"
+echo
+myfunc
+
+echo
+echo "Use function in cicle"
+count=1
+while [ $count -le 3 ]
+do
+	echo "Step $count"
+	myfunc
+	count=$(( $count + 1))
+done

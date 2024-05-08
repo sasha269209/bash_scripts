@@ -1,0 +1,5 @@
+#!/bin/bash
+# script 52
+#video 42 -  20:45 - 24:50
+
+echo -en "\033[37;1;41m Ypu login as lessons - Hello lessons  \n \033[0m " 

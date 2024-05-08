@@ -1,0 +1,28 @@
+#!/bin/bash
+# script 57
+#video 45 -  xxxx - xxxx
+echo
+
+
+
+
+
+
+
+
+
+
+
+
+
+function myfunc {
+	read -p "Please enter number:"  value
+	#echo "We add 10 to ypur number"
+	echo $(( $value + 10 ))
+}
+result=$( myfunc )
+echo
+echo  "Result is: $result"
+
+echo
+

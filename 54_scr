@@ -1,0 +1,16 @@
+#!/bin/bash
+# script 54
+#video 44 -  01:27 - 08:30
+echo
+
+function myfunc {
+	read -p "Please enter number:"  value
+	echo "We add 10 to ypur number"
+	return $(( $value + 10 ))
+}
+myfunc
+#echo
+echo  "Result is: $?"
+
+echo
+

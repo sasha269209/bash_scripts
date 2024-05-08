@@ -1,28 +1,38 @@
 #!/bin/bash
 # script 57
-#video 45 -  xxxx - xxxx
+#video 45 -  03:15 - 14:55
 echo
 
-
-
-
-
-
-
-
-
-
-
-
-
-function myfunc {
-	read -p "Please enter number:"  value
-	#echo "We add 10 to ypur number"
-	echo $(( $value + 10 ))
+function addnum {
+	if [ $# -eq 0 ] || [ $# -gt 2 ]
+	then
+		echo "Quonity of aguments is not correct"
+	elif
+		[ $# -eq 1 ]
+	then
+		echo $(( $1 + $1 ))
+	else
+		echo $(( $1 + $2 ))
+	fi
 }
-result=$( myfunc )
-echo
-echo  "Result is: $result"
 
-echo
+echo -n "Let s try with 2 arguments  10 and 15 :   "
+value=$(addnum 10 15)
+echo $value
+sleep 5
 
+echo -n "Let s try with 1 argument  100 :   "
+value=$(addnum 100)
+echo $value
+sleep 5
+
+echo -n "Let s try with 0 arguments  :   "
+value=$(addnum)
+echo $value
+sleep 5
+
+echo -n "Let s try with 3 arguments  10 and 15 and 20 :   "
+value=$(addnum 10 15 20)
+echo $value
+sleep 5
+echo

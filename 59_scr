@@ -1,30 +1,14 @@
 #!/bin/bash
 # script 59
-#video 46 -  xxxx - xxxx
+#video 46 -  02:00 - 06:00
 echo
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function myfunc {
-	echo $(( $1 + $2 ))
+	value=$(( $value + 10))
 }
 
-if [ $# -eq  2 ]
-then
-	value=$(myfunc $1 $2)  
-	echo "Result is $value"
-else
-	echo "Plese  give 2 parametrs !!!"
-fi
+read -p "Please, write number: " value
+myfunc
+echo "Now> after function, your number was changed to : $value"
+
 echo

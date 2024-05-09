@@ -1,0 +1,18 @@
+#!/bin/bash
+# script 61
+#video 47 -  03:25 -15:10
+echo
+arr=(1 2 3 4 5 6 7 8 9)
+echo "We created array : 1 2 3 4 5 6 7 8 9 "
+echo "The third element is: ${arr[2]}"
+echo "All elemrnts are: ${arr[@]}"
+echo "Index of array are: ${!arr[@]}"
+echo "The dimention of array is: ${#arr[@]}"
+echo "Lets change the first ellement"
+arr[0]=5
+echo "Now all elemrnts are: ${arr[@]}"
+echo "Add some elements"
+arr+=(11 12 13 14)
+echo "Now all elemrnts are: ${arr[@]}"
+echo "Take elements of array from 4 to 7 : ${arr[@]:3:4}"
+echo

@@ -1,0 +1,48 @@
+#!/bin/bash
+# script 62
+#video 47 -  15:30  22:15
+clear
+echo
+list=(44 64 41 2 3)
+for i in "${list[@]}"
+do
+	echo "Element $i"
+done
+echo
+#The same but change @ to *
+echo
+list=(44 64 41 2 3)
+for i in "${list[*]}"
+do
+	echo "Element $i"
+done
+echo
+#Lets chnge array
+echo
+list=(1 "a b" 3)
+for i in "${list[@]}"
+do
+	echo "Element $i"
+done
+echo
+#The same but change @ to *
+echo
+list=(1 "a b" 3)
+for i in "${list[*]}"
+do
+	echo "Element $i"
+done
+echo
+
+#One mo variant with * and without " "
+
+echo
+list=(1 "a b" 3)
+for i in ${list[*]}
+do
+	echo "Element $i"
+done
+echo
+
+
+

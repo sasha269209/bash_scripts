@@ -1,0 +1,15 @@
+#!/bin/bash
+# script 60
+#video 46 -  06:50 - 11:55
+echo
+value=5
+function myfunc {
+	local value=5000
+	echo "Local variable (value) = $value"
+}
+
+myfunc
+echo
+echo "Global variable (value) = $value"
+
+echo

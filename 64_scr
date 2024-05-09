@@ -1,0 +1,51 @@
+#!/bin/bash
+# script 64
+#video 48 -  xxxxx - xxxx
+echo
+clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Example with wrong code (we lost date in function)
+
+function myfunc {
+	echo "Total quontity of artay parametrs is: $# "
+	arr=$1
+	echo "All array (took function) is: ${arr[*]}"
+}
+
+myarray=(3 4 5 6 7 8 9)
+echo "Array without function is: ${myarray[*]}"
+
+myfunc $myarray
+echo
+
+#Example with correct code (all date in function - OK)
+
+function myfunc {
+	local newarray
+	newarray=("$@")
+	echo "Total quontity of artay parametrs is: ${#newarray[@]} "
+	echo "All array (took function) is: ${newarray[*]}"
+}
+
+myarray=(3 4 5 6 7 8 9)
+echo "Array without function is: ${myarray[*]}"
+
+myfunc ${myarray[*]}
+echo

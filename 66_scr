@@ -3,4 +3,6 @@
 #video 49 -  07:10 - 08:30 - 12:20
 
 echo "We count this two numbers"
-addnum $1 $2
+iaddnum $1 $2
+
+######

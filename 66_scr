@@ -1,0 +1,6 @@
+#!/bin/bash
+# script 66
+#video 49 -  07:10 - 08:30 - 12:20
+
+echo "We count this two numbers"
+addnum $1 $2

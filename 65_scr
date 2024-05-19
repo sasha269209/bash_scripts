@@ -1,0 +1,10 @@
+#!/bin/bash
+# script 65
+#video 49 -  02:45 - 04:00 - 05:25 - 06:20
+
+# source ./65_lib
+. ./65_lib
+
+result=$(addnum 100 200)
+echo "Result of work function in library is:  $result "
+

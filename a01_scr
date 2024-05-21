@@ -1,0 +1,53 @@
+#!/bin/bash
+clear
+echo "Hello World"
+echo
+
+name="Sasha"
+echo $name
+echo
+echo "Hello $name"
+echo
+echo 'Hello $name'
+echo
+
+x=2
+y=3
+#
+new=x+y
+echo $new
+echo
+#
+new=$(($x+$y))
+echo $new
+echo
+
+echo $BASH
+echo
+
+echo $BASH_VERSION
+echo
+
+echo $HOME
+echo
+
+echo $HOSTNAME
+echo
+
+echo $RANDOM
+echo
+
+echo $OSTYPE
+echo
+
+echo  $PWD
+echo
+
+echo $PS1   #???
+echo
+
+echo $UID
+echo
+
+echo $USER
+echo

@@ -1,0 +1,10 @@
+#!/bin/bash
+# script a03_scr
+# video 02
+#
+# Start this script like (  ./a02_scr 2 + 3  )
+clear
+echo
+echo "Result is $1 $2 $3 = $(( $1 $2 $3 )) "
+echo
+# 2*5 ???

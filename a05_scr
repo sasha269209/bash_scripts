@@ -1,4 +1,8 @@
 #!/bin/bash
+# script a05_scr
+# video 03
+#
+
 
 echo -n "What is your age?  "
 read age
@@ -11,3 +15,18 @@ if [[ $age -ge 0 ]] && [[ $age -lt 12 ]]; then
 	 echo "You are adult"
 	else echo "You are older person"
 fi
+
+
+
+
+
+
+
+
+# Start this script like (  ./a02_scr Sasha  )
+clear
+echo
+echo "Hello $1"
+echo
+echo "File name is $0 "
+echo

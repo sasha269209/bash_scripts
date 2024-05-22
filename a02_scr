@@ -1,9 +1,11 @@
 #!/bin/bash
+# script a02_scr
+# video 02
+clear
+echo
+echo -n "What is your mane?  "
+read name
+echo
+echo "Hello mister $name"
+echo 
 
-#echo -n "What is your mane?  "
-#read name
-#echo "Hello mister $name"
-
-# echo "$(($1 $2 $3))"
-
-echo "He;lo $1"

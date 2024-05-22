@@ -1,0 +1,11 @@
+#!/bin/bash
+# script a04_scr
+# video 02
+#
+# Start this script like (  ./a02_scr Sasha  )
+clear
+echo
+echo "Hello $1"
+echo
+echo "File name is $0 "
+echo

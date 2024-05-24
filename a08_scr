@@ -1,4 +1,10 @@
 #!/bin/bash
+# script a08_scr
+# video 06
+#
+clear
+echo
+
 
 echo -n "What is uour mane of brand?  "
 read marka
@@ -18,5 +24,3 @@ else
 	echo "$marka - is not model of phone"
 
 fi
-
-

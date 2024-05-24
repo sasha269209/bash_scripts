@@ -1,0 +1,28 @@
+#!/bin/bash
+# script a12_scr
+# video 10
+#
+clear
+echo
+
+#### FUNCTION RECURCIVE ######
+#
+# How to write Function
+
+funrec () {
+	echo "Please count 2 + 2 "
+	read answer
+	if [[ $answer == 4 ]]; then
+		echo "You are right"
+	else
+		echo "Answer is not write. Try again "
+		echo
+		funrec
+	fi
+}
+
+# How to use Function
+
+echo "Example of recurciwe function"
+funrec
+echo

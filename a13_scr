@@ -1,0 +1,63 @@
+#!/bin/bash
+# script a13_scr
+# video 11
+#
+
+echo
+#############################
+echo "1"
+echo
+
+echo "Hello" > a13_out_1
+echo "Hello" >> a13_out_2
+
+############################
+echo
+echo "2"
+echo
+
+read text < a13_data
+echo $text
+# !!! we print only first line
+
+#############################
+echo
+echo "3"
+echo
+
+while read text; 
+do
+	echo $text
+done < a13_data
+
+###############################
+echo
+echo "4"
+echo
+
+while read text; 
+do
+	array[$i]=$text
+	i=$(($i+1))
+done < a13_data
+
+echo
+for i in ${!array[@]}; do
+	echo "${array[$i]}"
+done
+
+
+###############################
+echo
+echo "5"
+echo
+
+cat < a13_data
+
+###############################
+echo
+echo "6"
+echo
+
+ls /dev | grep sd[a-z][1-9]
+

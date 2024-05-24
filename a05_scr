@@ -1,32 +1,24 @@
 #!/bin/bash
 # script a05_scr
-# video 03
+# video 04
 #
-
+clear
+echo
 
 echo -n "What is your age?  "
 read age
 
-if [[ $age -ge 0 ]] && [[ $age -lt 12 ]]; then
-	 echo "You are child"
-	elif [[ $age -ge 12 ]] && [[ $age -lt 18 ]]; then
-	 echo "You are teenager"
-	elif [[ $age -ge 18 ]] && [[ $age -lt 60 ]]; then
-	 echo "You are adult"
-	else echo "You are older person"
+if [[ $age -ge 0 ]] && [[ $age -lt 12 ]]; 
+then
+	echo "You are child"
+elif [[ $age -ge 12 ]] && [[ $age -lt 18 ]];
+then
+	echo "You are teenager"
+elif [[ $age -ge 18 ]] && [[ $age -lt 60 ]]; 
+then
+	echo "You are adult"
+else 
+	echo "You are older person"
 fi
 
-
-
-
-
-
-
-
-# Start this script like (  ./a02_scr Sasha  )
-clear
-echo
-echo "Hello $1"
-echo
-echo "File name is $0 "
 echo

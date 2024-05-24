@@ -1,9 +1,15 @@
 #!/bin/bash
+# script a07_scr
+# video 06
+#
+clear
+echo
 
 echo -n "What is uour mane of brand?  "
 read marka
 
-if [[ $marka == "samsung" ]] || [[ $marka == "nokia" ]] || [[ $marka == "apple" ]] ; then
+if [[ $marka == "samsung" ]] || [[ $marka == "nokia" ]] || [[ $marka == "apple" ]] ; 
+then
 
 	case $marka in
 		samsung)
@@ -14,6 +20,7 @@ if [[ $marka == "samsung" ]] || [[ $marka == "nokia" ]] || [[ $marka == "apple" 
 		  echo "For $marka is discount 0%";;
 	esac
 else 
-	echo "$marka - is not model of puone"
+	echo "$marka - is not model of phone"
 
 fi
+

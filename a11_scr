@@ -1,0 +1,22 @@
+#!/bin/bash
+# script a11_scr
+# video 09
+#
+clear
+echo
+
+#### FUNCTION ######
+#
+# How to write Function
+
+list_files () {
+	echo "Print list of filfes and direcrories in your hone directory"
+	cd ~/
+	ls;
+}
+
+# How to use Function
+
+list_files
+
+

@@ -1,6 +1,12 @@
 #!/bin/bash
+# script a06_scr
+# video 05
+#
+clear
+echo
 
-echo -n "What is uour mane of brand?  "
+
+echo -n "What is your mane of brand?  "
 read marka
 
 case $marka in
@@ -12,3 +18,4 @@ case $marka in
 	  echo "For $marka is discount 0%";;
 
 esac
+

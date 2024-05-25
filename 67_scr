@@ -1,0 +1,13 @@
+#!/bin/bash
+# script 67
+#video 50 -  01:55 - 05:55 - 07:40
+
+set -e
+
+touch 67_file
+
+
+#Then line with wrong code
+cp 67_fil 67_cp
+
+echo "Everything OK"

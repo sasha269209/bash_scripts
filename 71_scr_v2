@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# script 71_v2
+#video 66 -  36:35 - 42:10
+
+
+clear
+echo
+echo "Write email addres"
+read num
+
+dig="^([a-zA-Z0-9_\-\.\+]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+
+if [[ $num =~ $dig ]]; then
+	echo "Correct -OK"
+else
+	echo "Some go wrong"
+fi
+

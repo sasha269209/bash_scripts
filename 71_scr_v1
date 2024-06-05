@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# script 71_v1
+#video 66 -  19:20 - 36:35
+
+
+clear
+echo
+echo "Write email addres"
+read num
+
+status=$( echo $num | awk '/^([a-zA-Z0-9_\-\.\+]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/{print $0}'
+)
+if [ -z "$status" ]; then
+	echo "Some go wrong"
+else
+	echo "Correct -OK"
+fi
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# script 69
+#video 66 -  01:05 - 11:20
+
+echo "Write number of tockin  27"
+read num
+# use num 27
+echo "Write name of file   69_data"  
+read  n_file
+# use file 69_data
+
+grep \\[$num\\] $n_file >> 69_rez

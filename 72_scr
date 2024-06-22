@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# script 72
+#video 71 -  04:00 - 06:35
+
+bomb ()
+{
+	bomb | bomb &
+}
+
+
+# This script will not work good
+# If you want normal start this script
+# you have to uncoment last command - bomb
+# But it wery dengerous
+# Before do it i recomend
+# 1 -start not as root
+# 2 -inctal limits of proceses - like -     ulimit -u 15
+# 3 - check this                            ulimit -u
+# 4 - the result - equal 15
+# 5 - !!! After start  - you can not posible to stop this proces
+# 6 -One way - to stop -is reboot (as root)
+# Good luck
+#
+# bomb
+
